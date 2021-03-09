@@ -1,1 +1,2 @@
 # Complex-Quadratic-Polynomial-Map
+Random C++ repository that computes the quadratic polynomial map. I'm not sure what I was doing with this, but was probably fun to play around with imaginary numbers.

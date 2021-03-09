@@ -20,10 +20,10 @@ Imaginary Imaginary::operator+(const Imaginary& cmplx)
 }
 Imaginary Square(Imaginary number)
 {
-	Imaginary *result = new Imaginary;
-	result->real = pow(number.real,2) + pow(number.complex, 2);
-	result->complex= 2 * number.real*number.complex;
-	return *result;
+	auto result = Imaginary();
+	result.real = pow(number.real,2) + pow(number.complex, 2);
+	result.complex= 2 * number.real*number.complex;
+	return result;
 }
 
 class Quadratic
@@ -43,7 +43,6 @@ void Quadratic::SetY(Imaginary value)
 {
 	y.push_back(value);
 }
-
 
 
 int main()
